@@ -6,7 +6,11 @@ function App() {
   return (
     <React.Fragment>
       <Navbar></Navbar>
+      <div className='container-fulid'>
       <CreatePost/>
+      <Home></Home>
+      </div>
+
 
     </React.Fragment> 
   );
